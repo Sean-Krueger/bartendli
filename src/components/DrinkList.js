@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const DrinkList = () => {
-    return (
+const [drinks, setDrinks] = useState()
+    
+
+return (
         <div>
             
         </div>

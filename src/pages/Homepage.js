@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import drinkAPI from "../apis/drinkAPI";
+import Navbar from "../components/Navbar"
 // import drinkAPI from "../apis/drinkAPI"
 
 const Homepage = () => {
@@ -17,11 +18,12 @@ useEffect(() => {
     setCocktails(response.data);
   };
     fetchData();
-
 }, []);
 
     return (
-        <div>
+        <div className="header">
+          <h1> Bartendli </h1>
+          <Navbar />
         </div>
     )
 }
