@@ -7,6 +7,7 @@ const navbar = () => {
             <ul>
                 <li>make me a drink</li>
                 <li>find drinks by alcohol</li>
+                <li>Drink a day</li>
             </ul>
         </div>
     )
