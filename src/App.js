@@ -6,9 +6,9 @@ function App() {
 
   return (
     <Router>
-      <Switch>
+      {/* <Switch> */}
         <Route path="/" component={HomePage}/>
-      </Switch>
+      {/* </Switch> */}
     </Router>
   );
 }
